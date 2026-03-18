@@ -38,6 +38,7 @@ function App() {
 
     return (
         <div className="app">
+        hey
             {user ? <TodoList /> : <Auth onAuthSuccess={() => setUser(user)} />}
         </div>
     );
